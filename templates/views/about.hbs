@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+
+   {{>headerlinks}}
+
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- right side div -->
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src="image/about.png" alt="">
+                        </figure>
+                    </div>
+                    <!-- left side div -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Hello! I am Anish Maharjan</p>
+                        <h1>And I Am A <span class="txt_clr"> Mern Stack Developer </span> Youtuber And A Freelancer</h1>
+                        <a href="/weather"><button>About me</button></a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer html -->
+    {{>footer}}
+</body>
+
+</html>
